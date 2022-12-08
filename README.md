@@ -7,4 +7,4 @@ Testé sur Ubuntu 20.04 et 22.04 ✅
 
 ## Ajouter le script
 executer la commande ```chmod 755 <nom du script>```
-./<nom du script>
+<./nom du script>
