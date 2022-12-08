@@ -7,5 +7,6 @@ Testé sur Ubuntu 20.04 et 22.04 ✅
 
 
 ## Ajouter le script
-executer la commande ```chmod 755 <nom du script>```  
-Et enfin executer le script ```./nom du script```
+git clone https://github.com/Megavigore33/Jenkins-creation-script
+executer la commande ```chmod 755 creation-jenkins.sh```  
+Et enfin executer le script ```./creation-jenkins.sh```
