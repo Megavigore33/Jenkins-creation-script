@@ -11,10 +11,12 @@ sh -c 'echo deb http://pkg.jenkins-ci.org/debian binary/ > /etc/apt/sources.list
 sudo apt -y update
 sudo apt -y install jenkins
 
+# Ajoute l'utilisateur jenkins
 useradd -m --system jenkins
 
+# Mise en fonction de jenkins
 sudo systemctl enable jenkins
-
 sudo systemctl start jenkins
 
-sudo systemctl status jenkins
+# Port par défault
+echo "Terminer la configuration à l'adresse http://localhost:8080"
